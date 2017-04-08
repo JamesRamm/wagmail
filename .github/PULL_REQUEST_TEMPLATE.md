@@ -1,7 +1,5 @@
 **Description:** Describe in a couple of sentence what this PR adds
 
-**JIRA:** Link to JIRA ticket
-
 **Dependencies:** dependencies on other outstanding PRs, issues, etc. 
 
 **Merge deadline:** List merge deadline (if any)
