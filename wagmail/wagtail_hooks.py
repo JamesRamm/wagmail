@@ -10,19 +10,19 @@ from wagtail.contrib.modeladmin.options import (
 from wagmail.models import EmailTemplate
 
 
-# class WagmailModelAdmin(ModelAdmin):
-#     model = EmailTemplate
-#     menu_order = 900
-#     menu_icon = 'mail'
-#     menu_label = 'Mail'
-#     add_to_settings_menu = False
-#     exclude_from_explorer = True
-#     list_display = ('name', 'description')
-#     list_filter = ('name',)
+class WagmailModelAdmin(ModelAdmin):
+    model = EmailTemplate
+    menu_order = 900
+    menu_icon = 'mail'
+    menu_label = 'Mail'
+    add_to_settings_menu = False
+    exclude_from_explorer = True
+    list_display = ('subject', 'description')
+    list_filter = ('subject',)
 
-# modeladmin_register(WagmailModelAdmin)
+modeladmin_register(WagmailModelAdmin)
 
 
-@hooks.register('register_admin_menu_item')
-def register_wagmail():
-  return MenuItem('Mail', reverse('wagmail'), classnames='icon icon-mail', order=900)  
+# @hooks.register('register_admin_menu_item')
+# def register_wagmail():
+#   return MenuItem('Mail', reverse('wagmail'), classnames='icon icon-mail', order=900)

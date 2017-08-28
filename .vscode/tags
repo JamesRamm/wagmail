@@ -1,0 +1,168 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../wagmail/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170324_2127.py	../wagmail/migrations/0002_auto_20170324_2127.py	1;"	kind:file	line:1
+0003_auto_20170324_2134.py	../wagmail/migrations/0003_auto_20170324_2134.py	1;"	kind:file	line:1
+0004_auto_20170324_2139.py	../wagmail/migrations/0004_auto_20170324_2139.py	1;"	kind:file	line:1
+0005_auto_20170402_0912.py	../wagmail/migrations/0005_auto_20170402_0912.py	1;"	kind:file	line:1
+0006_auto_20170824_1028.py	../wagmail/migrations/0006_auto_20170824_1028.py	1;"	kind:file	line:1
+0007_auto_20170825_1107.py	../wagmail/migrations/0007_auto_20170825_1107.py	1;"	kind:file	line:1
+CHANGELOG	../setup.py	/^CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst')).read()$/;"	kind:variable	line:35
+ContactForm	../wagmail/models.py	/^class ContactForm(AbstractEmailForm):$/;"	kind:class	line:27
+DATABASES	../test_settings.py	/^DATABASES = {$/;"	kind:variable	line:20
+EmailTemplate	../wagmail/models.py	/^class EmailTemplate(models.Model):$/;"	kind:class	line:46
+FormField	../wagmail/models.py	/^class FormField(AbstractFormField):$/;"	kind:class	line:24
+INSTALLED_APPS	../test_settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:31
+LOCALE_PATHS	../test_settings.py	/^LOCALE_PATHS = [$/;"	kind:variable	line:53
+Migration	../wagmail/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../wagmail/migrations/0002_auto_20170324_2127.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../wagmail/migrations/0003_auto_20170324_2134.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../wagmail/migrations/0004_auto_20170324_2139.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../wagmail/migrations/0005_auto_20170402_0912.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../wagmail/migrations/0006_auto_20170824_1028.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:11
+Migration	../wagmail/migrations/0007_auto_20170825_1107.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+PWD	../manage.py	/^PWD = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:11
+README	../setup.py	/^README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()$/;"	kind:variable	line:34
+REPO_ROOT	../docs/conf.py	/^REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:42
+ROOT_URLCONF	../test_settings.py	/^ROOT_URLCONF = 'wagmail.urls'$/;"	kind:variable	line:57
+SECRET_KEY	../test_settings.py	/^SECRET_KEY = 'insecure-secret-key'$/;"	kind:variable	line:59
+VERSION	../docs/conf.py	/^VERSION = get_version('..\/wagmail', '__init__.py')$/;"	kind:variable	line:45
+VERSION	../setup.py	/^VERSION = get_version('wagmail', '__init__.py')$/;"	kind:variable	line:26
+WagmailConfig	../wagmail/apps.py	/^class WagmailConfig(AppConfig):$/;"	kind:class	line:11
+WagmailModelAdmin	../wagmail/wagtail_hooks.py	/^class WagmailModelAdmin(ModelAdmin):$/;"	kind:class	line:13
+__init__.py	../wagmail/__init__.py	1;"	kind:file	line:1
+__init__.py	../wagmail/migrations/__init__.py	1;"	kind:file	line:1
+__version__	../wagmail/__init__.py	/^__version__ = '0.1.0'$/;"	kind:variable	line:7
+add_to_settings_menu	../wagmail/wagtail_hooks.py	/^    add_to_settings_menu = False$/;"	kind:variable	line:18
+apps.py	../wagmail/apps.py	1;"	kind:file	line:1
+author	../docs/conf.py	/^author = edx_theme.AUTHOR$/;"	kind:variable	line:101
+author	../setup.py	/^    author='James Ramm',$/;"	kind:variable	line:42
+author_email	../setup.py	/^    author_email='ramshacklerecording@gmail.com',$/;"	kind:variable	line:43
+bases	../wagmail/migrations/0006_auto_20170824_1028.py	/^            bases=('wagtailcore.page',),$/;"	kind:variable	line:32
+body	../wagmail/models.py	/^    body = RichTextField(help_text="Main body of the email. When connecting to model signals, the model instance is available as the `instance` context value")$/;"	kind:variable	line:52
+classifiers	../setup.py	/^    classifiers=[$/;"	kind:variable	line:56
+conf.py	../docs/conf.py	1;"	kind:file	line:1
+content_panels	../wagmail/models.py	/^    content_panels = AbstractEmailForm.content_panels + [$/;"	kind:variable	line:31
+copyright	../docs/conf.py	/^copyright = edx_theme.COPYRIGHT  # pylint: disable=redefined-builtin$/;"	kind:variable	line:100
+default_app_config	../wagmail/__init__.py	/^default_app_config = 'wagmail.apps.WagmailConfig'  # pylint: disable=invalid-name$/;"	kind:variable	line:9
+dependencies	../wagmail/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../wagmail/migrations/0002_auto_20170324_2127.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	../wagmail/migrations/0003_auto_20170324_2134.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	../wagmail/migrations/0004_auto_20170324_2139.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../wagmail/migrations/0005_auto_20170402_0912.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	../wagmail/migrations/0006_auto_20170824_1028.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	../wagmail/migrations/0007_auto_20170825_1107.py	/^    dependencies = [$/;"	kind:variable	line:10
+description	../wagmail/models.py	/^    description = models.CharField(max_length=255, help_text="Short description of the email template. Not included in sent emails")$/;"	kind:variable	line:51
+documentation_title	../docs/conf.py	/^documentation_title = "{project_title}".format(project_title=project_title)$/;"	kind:variable	line:103
+epub_author	../docs/conf.py	/^epub_author = author$/;"	kind:variable	line:396
+epub_copyright	../docs/conf.py	/^epub_copyright = copyright$/;"	kind:variable	line:398
+epub_exclude_files	../docs/conf.py	/^epub_exclude_files = ['search.html']$/;"	kind:variable	line:446
+epub_publisher	../docs/conf.py	/^epub_publisher = author$/;"	kind:variable	line:397
+epub_title	../docs/conf.py	/^epub_title = project$/;"	kind:variable	line:395
+exclude_from_explorer	../wagmail/wagtail_hooks.py	/^    exclude_from_explorer = True$/;"	kind:variable	line:19
+exclude_patterns	../docs/conf.py	/^exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']$/;"	kind:variable	line:133
+extensions	../docs/conf.py	/^extensions = [$/;"	kind:variable	line:68
+field	../wagmail/migrations/0003_auto_20170324_2134.py	/^            field=wagtail.wagtailcore.fields.StreamField((('heading', wagtail.wagtailcore.blocks.CharBlock(classname='full title')), ('template', wagtail.wagtailcore.blocks.RawHTMLBlock()))),$/;"	kind:variable	line:20
+field	../wagmail/migrations/0004_auto_20170324_2139.py	/^            field=models.OneToOneField(auto_created=True, default=1, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.Page'),$/;"	kind:variable	line:24
+field	../wagmail/migrations/0005_auto_20170402_0912.py	/^            field=wagtail.wagtailcore.fields.StreamField((('template', wagtail.wagtailcore.blocks.RawHTMLBlock()),)),$/;"	kind:variable	line:20
+field	../wagmail/migrations/0006_auto_20170824_1028.py	/^            field=models.AutoField(auto_created=True, default=1, primary_key=True, serialize=False, verbose_name='ID'),$/;"	kind:variable	line:59
+field	../wagmail/migrations/0006_auto_20170824_1028.py	/^            field=wagtail.wagtailcore.fields.RichTextField(),$/;"	kind:variable	line:65
+fields	../wagmail/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../wagmail/migrations/0002_auto_20170324_2127.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../wagmail/migrations/0006_auto_20170824_1028.py	/^            fields=[$/;"	kind:variable	line:21
+fields	../wagmail/migrations/0006_auto_20170824_1028.py	/^            fields=[$/;"	kind:variable	line:36
+get_version	../docs/conf.py	/^def get_version(*file_paths):$/;"	kind:function	line:30
+get_version	../setup.py	/^def get_version(*file_paths):$/;"	kind:function	line:13
+html_static_path	../docs/conf.py	/^html_static_path = ['_static']$/;"	kind:variable	line:206
+html_theme	../docs/conf.py	/^html_theme = 'edx_theme'$/;"	kind:variable	line:172
+html_theme_path	../docs/conf.py	/^html_theme_path = [edx_theme.get_html_theme_path()]$/;"	kind:variable	line:181
+htmlhelp_basename	../docs/conf.py	/^htmlhelp_basename = '{project_name}doc'.format(project_name=project)$/;"	kind:variable	line:286
+include_package_data	../setup.py	/^    include_package_data=True,$/;"	kind:variable	line:48
+initial	../wagmail/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+install_requires	../setup.py	/^    install_requires=[$/;"	kind:variable	line:49
+intersphinx_mapping	../docs/conf.py	/^intersphinx_mapping = {$/;"	kind:variable	line:478
+intro	../wagmail/models.py	/^    intro = RichTextField(blank=True)$/;"	kind:variable	line:28
+keywords	../setup.py	/^    keywords='Django Wagtail',$/;"	kind:variable	line:55
+language	../docs/conf.py	/^language = None$/;"	kind:variable	line:119
+latex_documents	../docs/conf.py	/^latex_documents = [$/;"	kind:variable	line:312
+latex_elements	../docs/conf.py	/^latex_elements = {$/;"	kind:variable	line:290
+latex_target	../docs/conf.py	/^latex_target = '{project}.tex'.format(project=project)$/;"	kind:variable	line:311
+license	../setup.py	/^    license="AGPL 3.0",$/;"	kind:variable	line:53
+list_display	../wagmail/wagtail_hooks.py	/^    list_display = ('subject', 'description')$/;"	kind:variable	line:20
+list_filter	../wagmail/wagtail_hooks.py	/^    list_filter = ('subject',)$/;"	kind:variable	line:21
+long_description	../setup.py	/^    long_description=README + '\\n\\n' + CHANGELOG,$/;"	kind:variable	line:41
+man_pages	../docs/conf.py	/^man_pages = [$/;"	kind:variable	line:354
+manage.py	../manage.py	1;"	kind:file	line:1
+master_doc	../docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:96
+menu_icon	../wagmail/wagtail_hooks.py	/^    menu_icon = 'mail'$/;"	kind:variable	line:16
+menu_label	../wagmail/wagtail_hooks.py	/^    menu_label = 'Mail'$/;"	kind:variable	line:17
+menu_order	../wagmail/wagtail_hooks.py	/^    menu_order = 900$/;"	kind:variable	line:15
+model	../wagmail/wagtail_hooks.py	/^    model = EmailTemplate$/;"	kind:variable	line:14
+model_name	../wagmail/migrations/0003_auto_20170324_2134.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:18
+model_name	../wagmail/migrations/0004_auto_20170324_2139.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:18
+model_name	../wagmail/migrations/0004_auto_20170324_2139.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:22
+model_name	../wagmail/migrations/0005_auto_20170402_0912.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:18
+model_name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:53
+model_name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:57
+model_name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:63
+model_name	../wagmail/migrations/0007_auto_20170825_1107.py	/^            model_name='emailtemplate',$/;"	kind:variable	line:16
+models.py	../wagmail/models.py	1;"	kind:file	line:1
+name	../setup.py	/^    name='wagmail',$/;"	kind:variable	line:38
+name	../wagmail/apps.py	/^    name = 'wagmail'$/;"	kind:variable	line:16
+name	../wagmail/migrations/0001_initial.py	/^            name='BaseEmail',$/;"	kind:variable	line:18
+name	../wagmail/migrations/0002_auto_20170324_2127.py	/^            name='BaseEmail',$/;"	kind:variable	line:27
+name	../wagmail/migrations/0002_auto_20170324_2127.py	/^            name='EmailTemplate',$/;"	kind:variable	line:18
+name	../wagmail/migrations/0003_auto_20170324_2134.py	/^            name='body',$/;"	kind:variable	line:19
+name	../wagmail/migrations/0004_auto_20170324_2139.py	/^            name='id',$/;"	kind:variable	line:19
+name	../wagmail/migrations/0004_auto_20170324_2139.py	/^            name='page_ptr',$/;"	kind:variable	line:23
+name	../wagmail/migrations/0005_auto_20170402_0912.py	/^            name='body',$/;"	kind:variable	line:19
+name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            name='ContactForm',$/;"	kind:variable	line:20
+name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            name='FormField',$/;"	kind:variable	line:35
+name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            name='body',$/;"	kind:variable	line:64
+name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            name='id',$/;"	kind:variable	line:58
+name	../wagmail/migrations/0006_auto_20170824_1028.py	/^            name='page_ptr',$/;"	kind:variable	line:54
+new_name	../wagmail/migrations/0007_auto_20170825_1107.py	/^            new_name='subject',$/;"	kind:variable	line:18
+old_name	../wagmail/migrations/0007_auto_20170825_1107.py	/^            old_name='name',$/;"	kind:variable	line:17
+on_init	../docs/conf.py	/^def on_init(app):  # pylint: disable=unused-argument$/;"	kind:function	line:485
+operations	../wagmail/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../wagmail/migrations/0002_auto_20170324_2127.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../wagmail/migrations/0003_auto_20170324_2134.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../wagmail/migrations/0004_auto_20170324_2139.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../wagmail/migrations/0005_auto_20170402_0912.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../wagmail/migrations/0006_auto_20170824_1028.py	/^    operations = [$/;"	kind:variable	line:18
+operations	../wagmail/migrations/0007_auto_20170825_1107.py	/^    operations = [$/;"	kind:variable	line:14
+options	../wagmail/migrations/0006_auto_20170824_1028.py	/^            options={$/;"	kind:variable	line:29
+options	../wagmail/migrations/0006_auto_20170824_1028.py	/^            options={$/;"	kind:variable	line:47
+packages	../setup.py	/^    packages=[$/;"	kind:variable	line:45
+page	../wagmail/models.py	/^    page = ParentalKey('ContactForm', related_name='form_fields')$/;"	kind:variable	line:25
+panels	../wagmail/models.py	/^    panels = [$/;"	kind:variable	line:54
+preserve_default	../wagmail/migrations/0004_auto_20170324_2139.py	/^            preserve_default=False,$/;"	kind:variable	line:25
+preserve_default	../wagmail/migrations/0006_auto_20170824_1028.py	/^            preserve_default=False,$/;"	kind:variable	line:60
+project	../docs/conf.py	/^project = 'wagmail'$/;"	kind:variable	line:99
+project_title	../docs/conf.py	/^project_title = 'Wagmail'$/;"	kind:variable	line:102
+pygments_style	../docs/conf.py	/^pygments_style = 'sphinx'$/;"	kind:variable	line:155
+release	../docs/conf.py	/^release = VERSION$/;"	kind:variable	line:112
+root	../test_settings.py	/^def root(*args):$/;"	kind:function	line:13
+send	../wagmail/models.py	/^    def send(self, recipients, **kwargs):$/;"	kind:member	line:60
+setup	../docs/conf.py	/^def setup(app):$/;"	kind:function	line:503
+setup.py	../setup.py	1;"	kind:file	line:1
+source_suffix	../docs/conf.py	/^source_suffix = '.rst'$/;"	kind:variable	line:89
+subject	../wagmail/models.py	/^    subject = models.CharField(max_length=64, help_text="The subject of emails sent using this template")$/;"	kind:variable	line:50
+suppress_warnings	../docs/conf.py	/^suppress_warnings = [$/;"	kind:variable	line:78
+templates_path	../docs/conf.py	/^templates_path = ['_templates']$/;"	kind:variable	line:83
+test_models.py	../tests/test_models.py	1;"	kind:file	line:1
+test_settings.py	../test_settings.py	1;"	kind:file	line:1
+texinfo_documents	../docs/conf.py	/^texinfo_documents = [$/;"	kind:variable	line:369
+thankyou_text	../wagmail/models.py	/^    thankyou_text = RichTextField(blank=True)$/;"	kind:variable	line:29
+todo_include_todos	../docs/conf.py	/^todo_include_todos = False$/;"	kind:variable	line:164
+url	../setup.py	/^    url='https:\/\/github.com\/JamesRamm\/wagmail',$/;"	kind:variable	line:44
+urlpatterns	../wagmail/urls.py	/^urlpatterns = [$/;"	kind:variable	line:10
+urls.py	../wagmail/urls.py	1;"	kind:file	line:1
+version	../docs/conf.py	/^version = VERSION$/;"	kind:variable	line:110
+version	../setup.py	/^    version=VERSION,$/;"	kind:variable	line:39
+wagtail_hooks.py	../wagmail/wagtail_hooks.py	1;"	kind:file	line:1
+zip_safe	../setup.py	/^    zip_safe=False,$/;"	kind:variable	line:54

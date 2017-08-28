@@ -4,6 +4,11 @@ Database models for wagmail.
 """
 from __future__ import absolute_import, unicode_literals
 from django.db import models
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
+from django.template import Template, Context
+from django.core.mail import send_mail
+
 from modelcluster.fields import ParentalKey
 
 from wagtail.wagtailcore import blocks
@@ -40,16 +45,36 @@ class ContactForm(AbstractEmailForm):
     ]
 
 
-class EmailTemplate(Page):
-    parent_page_types = ['wagtailcore.Page']
-    name = models.CharField(max_length=64)
-    description = models.CharField(max_length=255)
-    body = StreamField([
-        ('template', blocks.RawHTMLBlock()),
-    ])
+class EmailTemplate(models.Model):
+    '''Rich text (HTML) email templates which allow value substitutions using the
+    django template language.
+    '''
+    subject = models.CharField(max_length=64, help_text="The subject of emails sent using this template")
+    description = models.CharField(max_length=255, help_text="Short description of the email template. Not included in sent emails")
+    body = RichTextField(help_text="Main body of the email. When connecting to model signals, the model instance is available as the `instance` context value")
 
-    content_panels = [
-        FieldPanel('name', classname="full"),
-        FieldPanel('description', classname="full"),
-        StreamFieldPanel('body'),
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    panels = [
+        FieldPanel('subject', classname='full'),
+        FieldPanel('description', classname='full'),
+        FieldPanel('body', classname='full'),
     ]
+
+    def send(self, recipients, **kwargs):
+        '''Render and send the email
+        '''
+        template = Template(self.body)
+        kwargs['recipients'] = recipients
+        context = Context(kwargs)
+        message = template.render(context)
+
+        send_mail(
+            self.subject,
+            message,
+            'from@example.com',
+            recipients,
+            fail_silently=False,
+        )
